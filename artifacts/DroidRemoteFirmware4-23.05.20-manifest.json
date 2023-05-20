@@ -1,0 +1,22 @@
+{
+    "name": "DroidRemoteFirmware",
+    "version": "23.05.20",
+    "new_install_prompt_erase": true,
+    "new_install_improv_wait_time": 0,
+    "builds": [
+        {
+            "chipFamily": "ESP32-S3",
+            "parts": [
+                {
+                    "path": "DroidRemoteFirmware4-5e28026.bin",
+                    "offset": 0
+                },
+                {
+                    "path": "DroidRemoteFirmware4-5e28026.spiffs.bin",
+                    "offset": 13172736
+                }
+            ]
+        }
+    ],
+    "manifest_name": "DroidRemoteFirmware4-23.05.20-manifest.json"
+}
